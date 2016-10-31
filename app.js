@@ -1,5 +1,5 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const = express();
 
 app.use(express.static('public'));
 app.set('views', 'src/views');
